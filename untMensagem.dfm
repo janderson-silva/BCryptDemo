@@ -1,0 +1,190 @@
+object frmMensagem: TfrmMensagem
+  Left = 0
+  Top = 0
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'Aten'#231#227'o'
+  ClientHeight = 146
+  ClientWidth = 734
+  Color = clWhite
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  Position = poOwnerFormCenter
+  TextHeight = 15
+  object pnlIcones: TPanel
+    Left = 0
+    Top = 0
+    Width = 80
+    Height = 146
+    Align = alLeft
+    BevelOuter = bvNone
+    ParentColor = True
+    TabOrder = 0
+    ExplicitHeight = 191
+    object imgInformacao: TImage
+      AlignWithMargins = True
+      Left = 10
+      Top = 75
+      Width = 60
+      Height = 45
+      Margins.Left = 10
+      Margins.Top = 10
+      Margins.Right = 10
+      Margins.Bottom = 10
+      Align = alTop
+      Center = True
+      Picture.Data = {
+        0954506E67496D61676589504E470D0A1A0A0000000D49484452000000300000
+        003008060000005702F987000000097048597300000B1300000B1301009A9C18
+        000001AA4944415478DAEDD9CD4A02511407F073148BC899D6B5497D808AC016
+        11514F9049D45E2A700C8382163D409B280C6A8488DA16D1D71B24411B8B3E1E
+        C09956ED678CC8C8DBD5121AD06A04E73A75FE20E3CC9DC5FF77CFCC6A105C1E
+        145D8000A20B104074818603829BC604434C22423F3F6D77A8D713FF5D23631B
+        B9847C5C3720A81A297ECBBC43A5AB86015BD71579D136A0B4F3E0C14391E52B
+        29228B3EC4E5135B80806A5EF0C521D1E53F93D11469C41620A89A7970EE99FF
+        360C20AF2B926417C04417FF1A3E81AA5D09F06701B15E1FCCF6B594FF6FDF14
+        60F7FED53D80812E2FEC8FB559AE4D9D3E43F6F1CD1D8069BEFBCB83AD966B2B
+        972FB07357FF141C05843BBD7010B14E60924FE0CA2D132825D6E38399CA3B70
+        5B803D37BD038D080144C771402EEEB79C87D279021080000420000108400051
+        2180E8FC3F4040354DBEE8872608DF494357A40E5B003E810C3F0C8B2EFF2160
+        E75A421EB505086D1951867824BA7BB97F9145F439F9CC16A094806AAC21E082
+        D8F6B0AA25A4A55ACB3F7E62EA4E1BE39E222401310C4E7E62622CCB18A46AED
+        FCAF01CD1E02880E0144C7F5807711E6F231E3FF96890000000049454E44AE42
+        6082}
+      Visible = False
+      ExplicitLeft = 3
+      ExplicitTop = 54
+      ExplicitWidth = 74
+    end
+    object imgErro: TImage
+      AlignWithMargins = True
+      Left = 10
+      Top = 10
+      Width = 60
+      Height = 45
+      Margins.Left = 10
+      Margins.Top = 10
+      Margins.Right = 10
+      Margins.Bottom = 10
+      Align = alTop
+      Center = True
+      Picture.Data = {
+        0954506E67496D61676589504E470D0A1A0A0000000D49484452000000300000
+        003008060000005702F987000000097048597300000B1300000B1301009A9C18
+        000002F34944415478DAED995D48536118C79F97F24C0C91CC6A6919A60E7348
+        450445441B6551C4C02EBCC89B8240AD24D020E922BA2848923E205944745110
+        5E14245251481D8C0A828898619693C456E68C499AB5893BBDBEDB451D76CEFB
+        7116E78CCEFF429E6DE73CE7F9CDED771E14418607993D800D60F6003680D903
+        D800660F605900457654E39F57120F503DF2467B320640790EF910737CC0DDF3
+        934F4D403CAB1C79A7C633034096FC805083EA593FDA1A3B647900A557AAC41F
+        9937B89CAF7A691694F83AE49909581B40961EE2777F47EA1795C7C813DB6659
+        003CBC0F0FDFA57F90E2C310DD960350FA40827147007774518E0CC28F981BED
+        86A8B50064A905BFFBED6C072B2DF8B770DE320029B4494BDAB49A1E8094DAA4
+        9E9516AD1A06D0D2E6D176374426B348BD286F062E34BF559F9A16AD1A07D0D0
+        E6B18BAB612CE220F5B28228B435F5A738D9B8560D01E869F34447057C1ACB26
+        75B1F3279C6E1CD068624CABC200346D9EBAEA82A1500EA9CB564CC3C983EFB5
+        3A19D2AA3800459B67AE97C3C0F0025257964C41EBFE419D66E25A150260D1E6
+        B99BA51018CC25F55AD77768AE1BD26B29AC553100066D5EEA2C8157FD79A4DE
+        E09E80A6DA8FB4AE425AE506D0D936FF8AFFF64A78115848EACD6B2250BF7798
+        D65A48ABFC007ADBE61FB976B7187A5F273E61DEF5DFE0806F84A139BF56B900
+        98B6CD646EDC5B0E3D2F0B48BD736318EA7685182FC2A7556600F66D3391CE47
+        8570FFD91252EFD9F2156AB77F61BD129756D90178B64D9C3B4F9CD0253B495D
+        E31D851ACF28EBA95C5A650210D8368D8659AB6C0042DBA6D1B069950AC0AA4D
+        7542E16CE87EBA945C60EE3B50B4F8172F019356E9008CDA54A7F572057C0E27
+        96B9423CFCD923EF785B3069551780479BEA1C6EAB82C9E979A4CECD99858EE3
+        826B3F45AB9A00BCDA5467EE2E7CEB4111A9F7E17BC0A6AA88180045ABDA009C
+        DAFCA7D1D1AA1E401003AC327BF6E434416CA4B2FF0DC0510D48F1E3434ACD1E
+        1EE2A841EBCFF3F63F38CC8E0D60766C00B36303989DDF6BD65040F90DF89C00
+        00000049454E44AE426082}
+      Visible = False
+      ExplicitLeft = 3
+      ExplicitTop = 3
+      ExplicitWidth = 74
+    end
+  end
+  object Panel1: TPanel
+    Left = 80
+    Top = 0
+    Width = 654
+    Height = 146
+    Align = alClient
+    BevelOuter = bvNone
+    ParentColor = True
+    TabOrder = 1
+    ExplicitLeft = 8
+    ExplicitWidth = 80
+    ExplicitHeight = 191
+    object pnlBotoes: TPanel
+      Left = 0
+      Top = 106
+      Width = 654
+      Height = 40
+      Align = alBottom
+      BevelOuter = bvNone
+      ParentColor = True
+      TabOrder = 0
+      ExplicitTop = 144
+      ExplicitWidth = 554
+      object pnlOk: TPanel
+        AlignWithMargins = True
+        Left = 531
+        Top = 3
+        Width = 120
+        Height = 34
+        Cursor = crHandPoint
+        Align = alRight
+        BevelKind = bkFlat
+        BevelOuter = bvNone
+        Caption = 'OK'
+        Color = 5540912
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentBackground = False
+        ParentFont = False
+        TabOrder = 0
+        StyleElements = []
+        OnClick = pnlOkClick
+        ExplicitLeft = 279
+      end
+    end
+    object pnlMensagem: TPanel
+      Left = 0
+      Top = 0
+      Width = 654
+      Height = 106
+      Align = alClient
+      BevelOuter = bvNone
+      ParentColor = True
+      TabOrder = 1
+      ExplicitTop = 144
+      ExplicitWidth = 554
+      ExplicitHeight = 40
+      object lblMensagem: TLabel
+        AlignWithMargins = True
+        Left = 10
+        Top = 10
+        Width = 634
+        Height = 86
+        Margins.Left = 10
+        Margins.Top = 10
+        Margins.Right = 10
+        Margins.Bottom = 10
+        Align = alClient
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWhite
+        Font.Height = -13
+        Font.Name = 'Segoe UI'
+        Font.Style = [fsBold]
+        ParentFont = False
+        ExplicitWidth = 4
+        ExplicitHeight = 17
+      end
+    end
+  end
+end
