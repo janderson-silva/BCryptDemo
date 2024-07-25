@@ -6,7 +6,7 @@
 
 - **Monitoramento de Integridade:** O projeto inclui mecanismos para monitorar e validar o hash das senhas, especialmente se houver alterações ou atualizações na biblioteca ou no algoritmo. Isso garante que o sistema continue operando com segurança e que os hashes não sejam corrompidos ou comprometidos.
 
-- ____________________________________________________________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________________________________________________
 
 #### Linguagem de Programação:
 ![Delphi](https://img.shields.io/badge/Delphi_RAD_Studio-B22222?style=for-the-badge&logo=delphi&logoColor=white)
